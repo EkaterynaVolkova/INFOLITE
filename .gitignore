@@ -1,5 +1,7 @@
 sites/*/settings*.php
 sites/*/services*.yml
+sites/*/default.settings*.php
+sites/*/default.services*.yml
 sites/*/files
 sites/*/private
 .idea/
