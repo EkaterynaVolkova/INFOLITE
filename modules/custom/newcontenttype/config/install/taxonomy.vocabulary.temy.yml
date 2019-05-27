@@ -1,0 +1,11 @@
+uuid: c66be685-06b4-49cd-89f0-0940e39b495b
+langcode: ru
+status: true
+dependencies:
+  enforced:
+    module:
+      - newcontenttype
+name: Темы
+vid: temy
+description: 'Темы статей'
+weight: 0
