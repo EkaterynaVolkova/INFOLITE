@@ -1,0 +1,16 @@
+name: LightHimalaya
+type: theme
+description: 'My Awesome theme'
+package: Other
+core: 8.x
+libraries:
+  - lighthimalaya/global-styling
+ 
+base theme: himalaya
+
+regions:
+  header: Header
+  breadcrumb: Breadcrumb
+  content: Content
+  sidebar_first: 'Sidebar first'
+  footer: 'Footer'
