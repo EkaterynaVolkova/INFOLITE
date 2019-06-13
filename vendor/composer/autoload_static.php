@@ -20,6 +20,10 @@ class ComposerStaticInitDrupal8
     );
 
     public static $prefixLengthsPsr4 = array (
+        'l' => 
+        array (
+            'lsolesen\\pel\\' => 13,
+        ),
         'Z' => 
         array (
             'Zumba\\Mink\\Driver\\' => 18,
@@ -85,6 +89,10 @@ class ComposerStaticInitDrupal8
             'GuzzleHttp\\' => 11,
             'Goutte\\' => 7,
         ),
+        'F' => 
+        array (
+            'FontLib\\' => 8,
+        ),
         'E' => 
         array (
             'Egulias\\EmailValidator\\' => 23,
@@ -140,6 +148,10 @@ class ComposerStaticInitDrupal8
     );
 
     public static $prefixDirsPsr4 = array (
+        'lsolesen\\pel\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/lsolesen/pel/src',
+        ),
         'Zumba\\Mink\\Driver\\' => 
         array (
             0 => __DIR__ . '/..' . '/jcalderonzumba/mink-phantomjs-driver/src',
@@ -303,6 +315,10 @@ class ComposerStaticInitDrupal8
         'Goutte\\' => 
         array (
             0 => __DIR__ . '/..' . '/fabpot/goutte/Goutte',
+        ),
+        'FontLib\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/phenx/php-font-lib/src/FontLib',
         ),
         'Egulias\\EmailValidator\\' => 
         array (

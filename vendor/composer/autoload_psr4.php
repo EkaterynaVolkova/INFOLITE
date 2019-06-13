@@ -6,6 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'lsolesen\\pel\\' => array($vendorDir . '/lsolesen/pel/src'),
     'Zumba\\Mink\\Driver\\' => array($vendorDir . '/jcalderonzumba/mink-phantomjs-driver/src'),
     'Zumba\\GastonJS\\' => array($vendorDir . '/jcalderonzumba/gastonjs/src'),
     'Zend\\Stdlib\\' => array($vendorDir . '/zendframework/zend-stdlib/src'),
@@ -47,6 +48,7 @@ return array(
     'GuzzleHttp\\Promise\\' => array($vendorDir . '/guzzlehttp/promises/src'),
     'GuzzleHttp\\' => array($vendorDir . '/guzzlehttp/guzzle/src'),
     'Goutte\\' => array($vendorDir . '/fabpot/goutte/Goutte'),
+    'FontLib\\' => array($vendorDir . '/phenx/php-font-lib/src/FontLib'),
     'Egulias\\EmailValidator\\' => array($vendorDir . '/egulias/email-validator/EmailValidator'),
     'Drupal\\Driver\\' => array($baseDir . '/drivers/lib/Drupal/Driver'),
     'Drupal\\Core\\Composer\\' => array($baseDir . '/core/lib/Drupal/Core/Composer'),
