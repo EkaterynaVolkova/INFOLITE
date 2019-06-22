@@ -5,13 +5,7 @@
     "license": "GPL-2.0-or-later",
     "require": {
         "composer/installers": "^1.0.24",
-        "wikimedia/composer-merge-plugin": "^1.4",
-        "drupal/colorbox": "^1.4",
-        "drupal/views_infinite_scroll": "^1.5",
-        "drupal/video_embed_field": "^2.1",
-        "drupal/disqus": "^1.0@RC",
-        "drupal/social_login": "^2.85",
-        "drupal/fancy_login": "^2.2"
+        "wikimedia/composer-merge-plugin": "^1.4"
     },
     "replace": {
         "drupal/core": "^8.7"
